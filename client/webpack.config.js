@@ -7,7 +7,7 @@ module.exports = {
 		path: path.join(__dirname, '..', 'src', 'main', 'webapp', 'js')
 	},
 	module: {
-		loaders: [
+		rules: [
 			{ test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/ },
 		]
 	}
