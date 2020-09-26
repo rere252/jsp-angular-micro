@@ -4,7 +4,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Micro</title>
+  <title>Micro App</title>
   <script src="js/angular-micro.js"></script>
   <style>
     .jsp {
@@ -18,11 +18,11 @@
     <h2>Mina olen JSP</h2>
     <p>Tere!</p>
   </div>
-  <micro-app></micro-app>
+  <micro-app proov-input="Esimene Angular"></micro-app>
   <div class="jsp">
     <h2>Mina olen ka JSP</h2>
     <p>Tere ka siit!</p>
   </div>
-  <micro-app></micro-app>
+  <micro-app proov-input="Teine Angular"></micro-app>
 </body>
 </html>
