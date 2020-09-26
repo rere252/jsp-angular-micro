@@ -1,0 +1,3 @@
+last 11 Chrome major versions
+last 9 Firefox major versions
+not IE 9-11 # For IE 9-11 support, remove 'not'.
