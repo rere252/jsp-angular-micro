@@ -7,8 +7,7 @@ import { createCustomElement } from '@angular/elements';
 @NgModule({
   declarations: [AppComponent],
   imports: [BrowserModule],
-  providers: [],
-  entryComponents: [AppComponent],
+  entryComponents: [AppComponent]
 })
 export class AppModule implements DoBootstrap {
   constructor(injector: Injector) {
