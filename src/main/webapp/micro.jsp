@@ -8,22 +8,31 @@
   <script defer src="js/angular-micro.js"></script>
   <script defer src="js/event-handlers.js"></script>
   <style>
+    body {
+      background-color: #5c595b;
+      font-family: Arial, sans-serif;
+      margin: 1rem;
+    }
+    body > * {
+      padding: 1rem;
+      border-radius: 0.5rem;
+    }
     .jsp {
-      background-color: #00ffe4;
+      background-color: #eb34c0;
     }
   </style>
 </head>
 <body>
   <h1>JSP with Angular Web Components</h1>
   <div class="jsp">
-    <h2>Mina olen JSP</h2>
-    <p>Tere!</p>
+    <h2>I'm a JSP</h2>
+    <p>Hi!</p>
   </div>
-  <micro-app id="firstMicro" proov-input="Esimene Angular"></micro-app>
+  <micro-app id="firstMicro" test-input="First Angular"></micro-app>
   <div class="jsp">
-    <h2>Mina olen ka JSP</h2>
-    <p>Tere ka siit!</p>
+    <h2>I'm also a jsp</h2>
+    <p>Hi from here as well!</p>
   </div>
-  <micro-app id="secondMicro" proov-input="Teine Angular"></micro-app>
+  <micro-app id="secondMicro" test-input="Second Angular"></micro-app>
 </body>
 </html>

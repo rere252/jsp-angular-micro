@@ -1,3 +1,9 @@
-:host * {
-  background: #46eb34;
+:host > div {
+  background-color: #34eb61;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+button {
+  margin: 0.5rem 0rem;
 }

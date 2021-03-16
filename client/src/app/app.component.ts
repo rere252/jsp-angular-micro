@@ -8,6 +8,6 @@ import { ChangeDetectionStrategy, Component, EventEmitter, Input, Output, ViewEn
   encapsulation: ViewEncapsulation.ShadowDom
 })
 export class AppComponent {
-  @Input() proovInput: string;
+  @Input() testInput: string;
   @Output() superCustomEvent = new EventEmitter<any>();
 }
